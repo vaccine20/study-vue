@@ -1,7 +1,13 @@
-# Vue 3 + TypeScript + Vite
-
-## 목표
+# 목표
 이미 알고는 있으나 리마인드 목적으로 vue를 다시 사용해보자.
+
+## 개발 환경
+```bash
+nodejs v22
+pnpm v10.13
+pinia v3.0.3
+
+```
 
 ## 프로젝트 설치
 ```bash
