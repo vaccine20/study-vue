@@ -1,5 +1,11 @@
 # Vue 3 + TypeScript + Vite
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 목표
+이미 알고는 있으나 리마인드 목적으로 vue를 다시 사용해보자.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## 프로젝트 설치
+```bash
+1. npm install -g pnpm
+2. pnpm install
+3. pnpm run dev
+```
