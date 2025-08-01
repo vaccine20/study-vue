@@ -13,7 +13,7 @@ const handleClick = () => {
 
 <template>
   <div>
-    <HelloWorld msg="Vite + Vue" />
+    <HelloWorld />
   </div>
 </template>
 
