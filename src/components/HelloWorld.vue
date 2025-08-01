@@ -1,16 +1,22 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import { useStudyStore } from '../store/use-study-store';
 
 defineProps<{ msg: string }>()
 
-const count = ref(0)
+const studyStore = useStudyStore();
+
+const handleClick = () => {
+  studyStore.foodPrice += 100
+}
+
 </script>
 
 <template>
   <h1>{{ msg }}</h1>
 
   <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
+    <button type="button" @click="handleClick">price is {{ studyStore.foodPrice }}</button>
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
