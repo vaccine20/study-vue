@@ -12,8 +12,8 @@ const handleClick = () => {
 
 <template>
 
-  <div class="card">
-    <button type="button" @click="handleClick">클릭</button>
+  <div>
+    <v-btn type="button" @click="handleClick">클릭</v-btn>
     <div>
       가격 : {{ studyStore.foodPrice }}
     </div>
